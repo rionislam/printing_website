@@ -182,7 +182,7 @@
 <div class="box simple_contact">
    <form id="print_online_form" name="print_online_form" method="post" enctype="multipart/form-data">
       <fieldset class="group-select">
-         <!--<h4 class="legend">Inchoo_SimpleContact module sample</h4>-->
+         
          <h1 class="a">Print your PDF Online</h1>
          <h2 class="b">Upload your PDF to get started</h2>
          <p class="c">Hardcover or paperback book using a wide range of paper, color, and binding options.<br> The most common print-on-demand book, perfect for a variety of projects.</p>
@@ -227,7 +227,6 @@
                <input type="number" id="pagecount" name="pagecount" placeholder="" min="1" max="100" onchange="pageCount(this)" required>
             </div>
          </div>
-        <!--https://www.itsolutionstuff.com/post/php-count-number-of-pages-in-pdf-fileexample.html-->
         <br></br>
         <!--Interior Color-->
         <div class="wraper g">
@@ -237,10 +236,10 @@
         <div class="wraper2">
          <label for="interiorcolor">Interior Color</label><br>
          <select name="interiocolor" id="interiocolor" onchange="interiorColor(this)">
-         <option value="0.8">Black & White Premium</option> <!-- Black & White Premium value is Rs 0.8 -->
-         <option value="0.5">Black & White Standard</option> <!-- Black & White Standard value is Rs 0.5 -->
-         <option value="3.50">Color Premium</option> <!-- if select color  paper type 60 - Cream will be disabled --> <!-- Color Premium value is Rs 3.50 -->
-         <option value="3.20">Color Standard</option> <!-- if select color  paper type 60 - Cream will be disabled --> <!-- Color Premium value is Rs 3.20 -->
+         <option value="0.8">Black & White Premium</option> 
+         <option value="0.5">Black & White Standard</option> 
+         <option value="3.50">Color Premium</option>
+         <option value="3.20">Color Standard</option>
          </select>
          </div>
         <!--Paper Type-->
@@ -251,9 +250,9 @@
         <div class="wraper2">
          <label for="papertype">Paper Type</label><br>
          <select name="papertype" id="papertype" onchange="paperType(this)">
-         <option id="pTypeOptional" value="1.6">60 - Cream paper</option> <!-- if select color  paper type 60 - Cream will be disabled --> <!-- pages count * cream paper (Rs. 1.6) = value + interiorcolor vlaue =  finalvalue -->
-         <option value="1.75">70 - Simple paper</option> <!-- pages count * simple paper (Rs. 1.75) = value + interiorcolor vlaue = finalvalue --> 
-         <option value="1.9">80 - Matt Coated</option>  <!-- pages count * Matt Coated (Rs. 1.9) = value + + interiorcolor vlaue = finalvalue --> 
+         <option id="pTypeOptional" value="1.6">60 - Cream paper</option>
+         <option value="1.75">70 - Simple paper</option>
+         <option value="1.9">80 - Matt Coated</option>
          </select>
         </div>
         <!--Binding Type-->
@@ -264,11 +263,11 @@
         <div class="wraper2">
          <label for="bindingtype">Binding Type</label><br>
          <select name="bindingtype" id="bindingtype" onchange="bindingType(this)">
-         <option value="90">Paperback</option> <!-- pages count finalvalue + 90 = Binding Type value -->
-         <option value="200">Hardcover</option> <!-- pages count finalvalue + 200 = Binding Type value -->
-         <option value="85">Coil Bound</option> <!-- pages count finalvalue + 85 = Binding Type value -->
-         <option value="110">Saddle Stitch</option> <!-- pages finalvalue + 110 = Binding Type value -->
-         <option value="70">Linen Wrap</option> <!-- pages count finalvalue + 70 = Binding Type value -->
+         <option value="90">Paperback</option>
+         <option value="200">Hardcover</option>
+         <option value="85">Coil Bound</option>
+         <option value="110">Saddle Stitch</option>
+         <option value="70">Linen Wrap</option>
          </select>
         </div>
         <!--Cover Finish-->
