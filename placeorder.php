@@ -88,7 +88,7 @@ if (isset($_POST['submit'])) {
                         <br>
                         Thank you
                         <br>
-                        <a href="https://wbookstore.com">wbookstore.com</a>
+                        <a href="Your website link">Website Name</a>
                         <br>
 
                                      </p>';
